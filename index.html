@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisame</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-header">      
+            <a href="https://www.google.com" class="header__logo">
+                <img src="./photo/logo.png" alt="Logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item header__nav-item--active">
+                        <a href="https://www.google.com">
+                            inicio
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://www.google.com">
+                            nosotros
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://www.google.com">
+                            productos
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://www.google.com">
+                            distribudores
+                        </a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a href="https://www.google.com">
+                            contacto
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="slider">
+            <div class="container-slider">
+                <div class="slider__slider">
+                    <ul class="slider__list">
+                        <li class="slider__item slider__item--fade">
+                            <img class="slider__img" src="photo/slider/slider1.jpg" style="width:100%" alt="Slider1">  
+                        </li>
+
+                        <li class="slider__item slider__item--fade">
+                            <img class="slider__img" src="photo/slider/slider2.jpg" style="width:100%" alt="Slider2">
+                        </li>
+
+                        <li class="slider__item slider__item--fade">
+                            <img class="slider__img" src="photo/slider/slider3.jpg" style="width:100%" alt="Slider3">
+                        </li>
+                    </ul>
+                    
+                    <!-- Next and previous buttons -->
+                    <a class="slider__btn slider__btn-prev" onclick="plusSlides(-1)"></a>
+                    <a class="slider__btn slider__btn-next" onclick="plusSlides(1)"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="category">
+            <div class="container">
+                <div class="category__list">
+
+                    <div class="category__item">
+                        <div class="category__item-content">
+                            <img src="./photo/category/bolsa.png" alt="Bolsa" class="category__image category__img-bolsa">
+                            <h3 class="category__header">Tienda en línea</h3>
+                            <p class="category__text">Todo nuestro catálogo de productos online disponible solo para tí. </p>
+                        </div>
+                        <a href="https://www.google.com" class="category__button">
+                            <span class="category__button-text">
+                                Leer más
+                            </span>
+                            <span class="category__button-sign">
+                                +
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="category__item">
+                        <div class="category__item-content">
+                            <img src="./photo/category/portasfolio.png" alt="Portasfolio" class="category__image category__img-portasfolio">
+                            <h3 class="category__header">Trabajemos</h3>
+                            <p class="category__text">Conviértete en un distribuidor autorizado en tu región, trabajemos juntos</p>
+                        </div>   
+                        <a href="https://www.google.com" class="category__button">
+                            <span class="category__button-text">
+                                Leer más
+                            </span>
+                            <span class="category__button-sign">
+                                +
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="category__item">
+                        <div class="category__item-content">
+                            <img src="./photo/category/Capa 10.png" alt="Capa" class="category__image category__img-capa">
+                            <h3 class="category__header">Descuentos</h3>
+                            <p class="category__text">Conoce beneficios y descuentos pensados solo para tí.</p>
+                        </div>
+                        <a href="https://www.google.com" class="category__button">
+                            <span class="category__button-text">
+                                Leer más
+                            </span>
+                            <span class="category__button-sign">
+                                +
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="category__item">
+                        <div class="category__item-content">
+                            <img src="./photo/category/logo.png" alt="Logo" class="category__image category__img-logo">
+                            <h3 class="category__header">Nosotros</h3>
+                            <p class="category__text">Enterate de todo lo que tenemos planeado para tí.</p>
+                        </div>
+                        <a href="https://www.google.com" class="category__button">
+                            <span class="category__button-text">
+                                Leer más
+                            </span>
+                            <span class="category__button-sign">
+                                +
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="biography">
+            <div class="container">
+                <div class="biography__row">
+
+                    <div class="biography__left-side">
+                        <h3 class="biography__header">Quiénes somos</h3>
+                        <p class="biography__text">
+                            Somos una empresa de confección de ropa interior de la ciudad de Medellín, somos innovadores y comprometidos con nuestro trabajo donde brindamos lo mejor de nosotros a cada uno de nuestros clientes.
+                        </p>
+                        <h3 class="biography__header">
+                            Lo que nos gusta hacer
+                        </h3>
+                        <p class="biography__text">Trabajar con pasión y empeño pr darles a nuestros clientes lo mejor de nuestro talento para satisfacer sus necesidades.
+                            </p>
+                        <blockquote class="biography__quote">
+                            “La originalidad no consiste en decir cosas nuevas, sino en decirlas como si nunca hubiesen sido dichas por otro.”
+                        </blockquote>
+                    </div>
+
+                    <div class="biography__right-side">
+                        <h3 class="biography__header">Vendedoras estrella</h3>
+                        <p class="biography__text">
+                            Estas son algunas de nuestras vendedoras estrella en Colombia, tu también puedes estar en este lugar.
+                        </p>
+
+
+                        <ul class="biography__stars-list">
+                            <li class="biography__stars-item">
+                            
+                                    <img src="./photo/biography/heidy.jpg" alt="User1" class="biography__stars-img">
+                                    <div class="biography__stars-title">Heydi Milena Rua</div>
+                            
+                                
+                                <ul class="biography__socials-list">
+                                    <li class="biography__socials-item">
+                                       <a href="https://www.google.com">
+                                            <img src="./photo/biography/t.png" alt="T">
+                                       </a>
+                                    </li>
+                                    <li class="biography__socials-item">
+                                        <a href="https://www.google.com">
+                                            <img src="./photo/biography/in-blue.png" alt="In">
+                                        </a>
+                                    </li>
+                                    <li class="biography__socials-item">
+                                      <a href="https://www.google.com">
+                                        <img src="./photo/biography/f-blue.png" alt="Facebook">
+                                      </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="biography__stars-item">
+                                
+                                    <img src="./photo/biography/erica.jpg" alt="" class="biography__stars-img">
+                                    <div class="biography__stars-title">Erika Durán</div>
+                          
+                                    <ul class="biography__socials-list">
+                                        <li class="biography__socials-item">
+                                           <a href="https://www.google.com">
+                                                <img src="./photo/biography/t.png" alt="T">
+                                           </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                            <a href="https://www.google.com">
+                                                <img src="./photo/biography/in-blue.png" alt="In">
+                                            </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                          <a href="https://www.google.com">
+                                            <img src="./photo/biography/f-blue.png" alt="Facebook">
+                                          </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li class="biography__stars-item">
+                               
+                                    <img src="./photo/biography/caro.jpg" alt="User2" class="biography__stars-img">
+                                    <div class="biography__stars-title">Lía Pimienta</div>
+                               
+                                    <ul class="biography__socials-list">
+                                        <li class="biography__socials-item">
+                                           <a href="https://www.google.com">
+                                                <img src="./photo/biography/t.png" alt="T">
+                                           </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                            <a href="https://www.google.com">
+                                                <img src="./photo/biography/in-blue.png" alt="In">
+                                            </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                          <a href="https://www.google.com">
+                                            <img src="./photo/biography/f-blue.png" alt="Facebbok">
+                                          </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li class="biography__stars-item">
+                               
+                                    <img src="./photo/biography/lia.jpg" alt="User3" class="biography__stars-img">
+                                    <div class="biography__stars-title">Carolina Páez</div>
+                            
+
+                                    <ul class="biography__socials-list">
+                                        <li class="biography__socials-item">
+                                           <a href="https://www.google.com">
+                                                <img src="./photo/biography/t.png" alt="T">
+                                           </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                            <a href="https://www.google.com">
+                                                <img src="./photo/biography/in-blue.png" alt="In">
+                                            </a>
+                                        </li>
+                                        <li class="biography__socials-item">
+                                          <a href="https://www.google.com">
+                                            <img src="./photo/biography/f-blue.png" alt="Facebbok">
+                                          </a>
+                                        </li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <div class="biography__stripe">
+                    <div class="biography__stripe-ico-back-lt-wrapper">
+                        <img class="biography__stripe-ico-back-lt" src="./photo/biography/bg-t-black.png" alt="bg-t.png">
+                        <a href="https://www.google.com" class="biography__stripe-ico-link-t-pink">
+                            <img class="biography__stripe-ico-t-pink" src="./photo/biography/t-pink.png" alt="">
+                        </a>
+                    </div>
+                   
+                    <div class="biography__stripe-text-wrapper">
+                        <p class="biography__stripe-text biography__stripe-text-sp">Bésame sigue cambiando la vida de muchas mujeres en Colombia,</p>
+                        <p class="biography__stripe-text biography__stripe-text-eng">About 10 hours ago. from <a href="https://www.google.com">Web</a></p>
+                    </div>
+                  
+                    <ul class="biography__stripe-socials-list">
+                        <li class="biography__stripe-socials-item">
+                            <img class="biography__stripe-ico-back" src="./photo/biography/bg-t.png" alt="bg-t.png">
+                            <a href="https://www.google.com" class="biography__stripe-ico-link biography__stripe-ico-link-t">
+                                <img class="biography__stripe-ico" src="./photo/biography/t.png" alt="T">
+                            </a>
+                        </li>
+                        <li class="biography__stripe-socials-item">
+                            <img class="biography__stripe-ico-back" src="./photo/biography/bg-in.png" alt="bg-in.png">
+                            <a href="https://www.google.com" class="biography__stripe-ico-link biography__stripe-ico-link-in">
+                                <img class="biography__stripe-ico" src="./photo/biography/in-white.png" alt="In">
+                            </a>
+                        </li>
+                        <li class="biography__stripe-socials-item">
+                            <img class="biography__stripe-ico-back" src="./photo/biography/bg-f.png" alt="bg-f.png">
+                            <a href="https://www.google.com" class="biography__stripe-ico-link biography__stripe-ico-link-f">
+                                <img class="biography__stripe-ico" src="./photo/biography/f-white.png" alt="Facebbok">
+                            </a>
+                        </li>
+                        <li class="biography__stripe-socials-item">
+                            <img class="biography__stripe-ico-back" src="./photo/biography/bg-fr.png" alt="bg-fr.png">
+                            <a href="https://www.google.com" class="biography__stripe-ico-link biography__stripe-ico-link-fr">
+                                <img class="biography__stripe-ico" src="./photo/biography/fr.png" alt="Fr">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>  
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+
+                <div class="footer__row-item">
+                    <h3 class="footer__header">Hablemos</h3>
+                    <p class="footer__text">Envíanos tus inquietudes acerca de nosotros</p>
+                    <form action="" name="comment" class="footer__form">
+                        <input class="footer__name-field" type="text" name="name" placeholder="Nombre">
+                        <input class="footer__email-field" type="email" name="email" placeholder="E-mail">
+                        <textarea class="footer__comment-field" name="comment" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+                    
+                        <button type="submit" class="footer__form-submit">
+                            <span class="footer__form-submit-text">
+                                Enviar!
+                            </span>
+                            <div   class="footer__form-submit-sign">
+                                <svg 
+                                xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="7px" height="7px">
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                    d="M-0.002,6.999 L3.497,3.500 L-0.002,0.001 L2.966,0.001 L6.465,3.500 L2.966,6.999 L-0.002,6.999 Z"/>
+                                </svg>
+                            </div>                      
+                        </button>
+                    
+                    </form>
+                   
+                </div>
+
+
+                <div class="footer__row-item">
+                    <h3 class="footer__header">Testimonios</h3>
+                    <p class="footer__text">Algunos comentarios de nuestras vendedoras</p>
+                    <ul class="footer__list-testimonials">
+                        <li class="footer__item-testimonials">
+                            <div class="footer__author">Martha Loaiza</div>
+                            <div class="footer__date">Agosto 17th 2011</div>
+                            <p class="footer__comment--pink">Bésame me llevó a la independencia.</p>
+                        </li>
+                        <li class="footer__item-testimonials">
+                            <div class="footer__author">Lía Janeth Sepúlveda</div>
+                            <div class="footer__date">Agosto 19th 2010</div>
+                            <p class="footer__comment--pink">Con Bésame he aumentado mis ingresos.</p>
+                        </li>
+                        <li class="footer__item-testimonials">
+                            <div class="footer__author">Juana Jiménez</div>
+                            <div class="footer__date">Septiembre 6 2010</div>
+                            <p class="footer__comment--pink">Ahora soy toda una empresaria.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__row-item">
+                    <h3 class="footer__header">Liderazgo</h3>
+                    <p class="footer__text">Sigue las actualizaciones de nuestro blog</p>
+                    <ul class="footer__list-leadership">
+                        <li class="footer__item-leadership">
+                            <h4 class="footer__author">
+                                Mujeres libres e independientes
+                            </h4>
+                            <div class="footer__date">01.5.2010</div>
+                            <p class="footer__comment-grey">Aún recuerdo aquellos días cuando las mujeres buscaban ropa femenina.</p>
+                        </li>
+                         <li class="footer__item-leadership">
+                            <h4 class="footer__author">
+                                Un negocio que funciona en casa
+                            </h4>
+                            <div class="footer__date">20.12.2009</div>
+                            <p class="footer__comment-grey">Existen muchas opciones de negocios que puedes realizar desde tu casa.</p>
+                        </li>
+                         
+                        <li class="footer__item-leadership footer__item-leadership-link">
+                            <a href="https://www.google.com" class="footer__read-more-link">
+                                <span class="footer__read-more-text">
+                                    Leer más
+                                </span>
+                                <div   class="footer__read-more-sign">
+                                    <svg 
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="7px" height="7px">
+                                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                        d="M-0.002,6.999 L3.497,3.500 L-0.002,0.001 L2.966,0.001 L6.465,3.500 L2.966,6.999 L-0.002,6.999 Z"/>
+                                    </svg>
+                                </div>  
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright-container-wrapper">
+            <div class="container">
+                <div class="footer__copyright-row">
+                    <p>
+                        Pragma - 2011 - <a href="https://www.google.com" class="footer__copyright-row-link">Besame.com</a> - Todos los derechos reservados
+                    </p>
+
+                    <ul class="footer__copyright-nav-list">
+                        <li class="footer__copyright-nav-item">
+                            <a href="https://www.google.com" class="footer__copyright-nav-link footer__copyright-nav-link--active">
+                                inicio 
+                            </a>
+                        </li>
+                        <li class="footer__copyright-nav-item">
+                            <a href="https://www.google.com" class="footer__copyright-nav-link">
+                                nosotros 
+                            </a>
+                        </li>
+                        <li class="footer__copyright-nav-item">
+                            <a href="https://www.google.com" class="footer__copyright-nav-link">
+                                productos 
+                            </a>
+                        </li>
+                        <li class="footer__copyright-nav-item">
+                            <a href="https://www.google.com" class="footer__copyright-nav-link">
+                                distribuidores 
+                            </a>
+                        </li>
+                        <li class="footer__copyright-nav-item">
+                            <a href="https://www.google.com" class="footer__copyright-nav-link">
+                                Contacto
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

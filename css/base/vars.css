@@ -1,0 +1,24 @@
+:root{
+    --background-color: rgb(232,232,232);
+    --base-font:  Arial, sans-serif;
+    --base-font-color: rgb(80, 81, 80);
+    --header-color: #000;
+    --header-nav-item-color: #fff;
+    --slider-button-back-color:#fff;
+    --slider-button-border-color:#6f9742;
+    --linear-gradient:  -90deg, rgb(252,5,179) 0%, rgb(164,1,97) 100%;
+    --circle-button-color: rgb(77, 77, 77);
+    --biography-img-title: rgb(77, 77, 77);
+    --category-text: rgb(47, 50, 53);
+    --pink-magent: rgb(244, 4, 182);
+    --shadow:rgb(51, 72, 20);
+    --text-biography-stripe-color-1: rgb(34, 34, 34);
+    --text-biography-stripe-color-2: rgb(255, 255, 255);
+    --footer-main-color: rgb(255, 255, 255);
+    --footer-circle-color: rgb(32, 32, 32);
+    --footer-line-1-color:rgb(21, 21, 21);
+    --footer-line-2-color:rgb(47, 47, 47);
+    --footer-text-color: rgb(211, 211, 211);
+    --footer-form-field-color: rgb(20, 19, 19);
+
+}
